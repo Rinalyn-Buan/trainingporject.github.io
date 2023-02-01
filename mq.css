@@ -1,0 +1,387 @@
+/* smartphone portrait */
+@media (orientation: portrait) and (min-width:320px) {
+    nav {
+        display: block;
+        overflow: hidden;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        top: 0px;
+    }
+    
+    .nav-btn {
+       margin-bottom: 10px;
+    }
+
+    .nav-btn a {
+        font-size: 15px;
+    }
+
+    .R {
+        margin-left: 13%;
+    }
+
+    .form1 {
+        margin-top: 130px;
+        height: 300px;
+        padding: 10px;
+    }
+
+    .first {
+        margin-top: auto;
+    }
+
+    .logo {
+        padding-top: 50px;
+        height: 50px;
+    }
+
+    .second h1, #fav{
+        font-size: 15px;
+    }
+
+    .second p {
+        font-size: 12px;
+    }
+        
+    .favorite {
+        margin: auto;
+    }
+
+    .favs {
+            height: 400px;
+            width: 200px;
+            margin-left: 50px;
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            grid-template-rows: auto;
+            grid-auto-rows: auto;    
+        }
+        
+    .fave {
+            height: 70px;
+            border-radius: 13px;
+            background-color: coral;
+        }
+
+    .fav-1 {
+        background-size: cover;
+    }
+
+    .form3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .third {
+        display: block;
+    }
+
+    .third img{
+        display: block;
+        height: 100px;
+        padding: 20px;
+        border-radius: 10px;
+        margin-left: 75px;
+    }
+    
+    .third h3 {
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .coffee img {
+        float: none;
+        margin-top: 100px;
+        height: 200px;
+        width: 105%;
+    }
+    
+    .coffee b {
+        font-size: 25px;
+        float: none;
+    }
+    .coffee p {
+        float: none;
+        font-size: 20px;
+    }
+
+    .edu {
+        font-size: 30px;
+    }
+
+    .education {
+        margin-left: 0px;
+    }
+    
+    .education img {
+        padding-left: 0px;
+        visibility: hidden;
+    }
+    
+    .education td {
+        font-size: 20px;
+    }
+    
+    .education li{
+        font-size: 18px;
+    }
+
+    .achives {
+        font-size: 18px;
+        height: 50px;
+        width: 300px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 0px;
+    }
+
+    .gal {
+        margin-top: 130px;
+        font-size: 25px;
+    }
+
+    .gallery{
+        width: 80%;
+        height: 90%;
+        padding-left: 75px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .photo1 img{
+        width: 10px;
+        height: 10px;
+        justify-content: center;
+    }
+    
+    .gallery img {
+        height: 150px;
+        width: 100px;
+        justify-content: center;
+        margin: 1px;
+    }
+    
+    .solo  img{
+        height: 200px;
+        width: 205px;
+    }
+    
+    .photo4 p {
+        height: 120px;
+        width: 100px;
+        margin-top: 120px;
+    }
+
+    .contact {
+        margin-top: 50%;
+        height: 40vh;
+    }
+    
+    .contact p {
+        font-size: 20px;
+        padding-top: 20%;
+    }
+    
+    .con_bg {
+        display: flex;
+        margin-left: 90px;
+    }
+    
+    .lower_contact{
+        display: block;
+    }
+    
+    .con_bg2 {
+        height: 100px;
+        width: 48.5%;
+        padding-top: 5px;
+        padding-left: 10px;
+        display: flex;
+    }
+    
+    .icon img {
+        margin-left: 0px;
+        padding-top: 10px;
+        height: 30px;
+        display: block;
+    }
+    
+    .p p {
+        padding-top: 2px;
+        padding-left: 20px;
+        font-family: 'Readex Pro', sans-serif;
+    }
+    
+    .location{
+        margin-left: 10px;
+        height: 150px;
+        width: 250px;
+    }
+    
+    .input_form {
+        height: 450px;
+        width: 300px;
+        margin-top: 80%;
+        margin-left: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #email {
+        margin-left: 20px;
+        margin-top: 10px;
+        height: 25px;
+        width: 90%;
+    }
+    
+    #message {
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 90%;
+        border-radius: 10px;
+    }
+    
+    #btn {
+        margin-left: 110px;
+    }
+
+    .row h2 {
+        padding-top: 10px;
+    }
+
+    }
+
+    @media (orientation: portrait) and (min-width: 768px) {
+        
+        nav {
+            display: inline;
+        }
+        .R {
+            margin-left: 270px;
+        }
+        .nav-btn {
+            margin-left: 60px;
+        }
+
+        .nav-btn a {
+            padding: 20px;
+        }
+
+        #fav {
+            font-size: 20px;
+        }
+
+        .favs {
+            height: 20vh;
+            width: 80%;
+            margin-left: 60px;
+            margin-bottom: 0px;
+            display: grid;
+            grid-template-columns: repeat(5, 5fr);
+            grid-template-rows: 90px;
+            gap: 5px;
+            margin-bottom: 30px;
+        }
+
+        .fave {
+            height: auto;
+        }
+
+        .third {
+            display: flex;
+        }
+
+        .third img{
+            display: inline-flex;
+            height: 100px;
+            padding: 30px;
+            border-radius: 10px;
+            margin-left: 30px;
+        }
+
+        .coffee img {
+            height: 500px;
+            margin-bottom: 10px;
+        }
+
+        .coffee P {
+            text-align: center;
+        }
+        
+        .education {
+            margin-left: 70px;
+            margin-bottom: 20px;
+        }
+
+        .education img {
+            visibility: hidden;
+        }
+
+        td img {
+            height: 50px;
+        }
+
+        .achives {
+            display: inline-flex;
+            padding: 10px;
+            margin-left: 30px;
+            margin-bottom: 0px;
+        }
+
+        .gal{
+            font-size: 20px;   
+        }
+
+        .gallery{
+            width: 80%;
+        }
+
+        .solo  img{
+            height: 300px;
+            width: 525px;
+        }
+
+        .contact {
+            margin-top: 150px;
+            height: 250px;
+            
+        }
+        
+        .contact p {
+            padding-top: 65px;
+        }
+
+        .con_bg {
+            margin-left: 315px;
+        }
+
+        .lower_contact{
+            display: inline-flex;
+        }
+
+        .input_form {
+            height: 500px;
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .location{
+            height: 200px;
+            width: 300px;
+        }
+
+}
+
+
+
+
+
+
